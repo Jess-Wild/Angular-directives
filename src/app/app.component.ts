@@ -9,6 +9,6 @@ export class AppComponent {
   title: string = 'Raclette party 🧀';
 
   isThisIngredientVital: boolean = true;
-  isGuestListDisplayed: boolean = true;
+  displayGuestList: boolean = true;
   songList: string[] = ["Alejandro", "Ne me quitte pas", "Le temps est bon"];
 }
